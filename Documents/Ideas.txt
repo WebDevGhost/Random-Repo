@@ -4,3 +4,4 @@ HCJ: A site containing games written in HTML, CSS and JS.
 Custom OS written in HTML, CSS and JS (more than likely have to use more languages than those three).
 Paletter: A simple website that has website theme ideas.
 SE Planet: A collection of ALL SnapEnhance files, configs, themes and scripts.
+DownCraft Planet: A collection of everything related to DownCraft (PS3).
