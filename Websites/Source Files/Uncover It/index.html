@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="preload" href="/_next/static/media/4473ecc91f70f139-s.p.woff" as="font" crossorigin="" type="font/woff"/>
+    <link rel="preload" href="/_next/static/media/463dafcda517f24f-s.p.woff" as="font" crossorigin="" type="font/woff"/>
+    <link rel="stylesheet" href="/_next/static/css/9f6dedd01a329132.css" data-precedence="next"/>
+    <link rel="stylesheet" href="/_next/static/css/2eed7cac1a5c8bef.css" data-precedence="next"/>
+    <link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-256e0e502d913ae3.js"/>
+    <script src="/_next/static/chunks/602bc678-60c08ba7be113ae7.js" async=""></script>
+    <script src="/_next/static/chunks/723-a03125d01ac8d179.js" async=""></script>
+    <script src="/_next/static/chunks/main-app-3987157469e31f1a.js" async=""></script>
+    <script src="/_next/static/chunks/app/layout-2955c852510c7513.js" async=""></script>
+    <script src="/_next/static/chunks/976-67e469cfbda1653f.js" async=""></script>
+    <script src="/_next/static/chunks/839-20860cf148486b0f.js" async=""></script>
+    <script src="/_next/static/chunks/app/page-bea41399b0bbb61a.js" async=""></script>
+    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-46BHLDMYVM" as="script"/>
+    <meta name="next-size-adjust"/>
+    <title>Uncover it - Static Malware Configuration Extractor</title>
+    <meta name="description" content="Uncover the hidden malware, don&#x27;t let it uncover you! Uncover it is a simple to use malware analyzer that can return the configuration of a file statically."/>
+    <meta name="keywords" content="malware analysis,static malware config,malware extractor,cybersecurity,uncover malware,file,files,malware,analysis,size,uncover,home,status"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"/>
+    <meta property="og:title" content="Uncover it - Static Malware Config Extractor"/>
+    <meta property="og:description" content="Uncover the hidden malware, don&#x27;t let it uncover you! Uncover it is a simple to use malware analyzer that can return the configuration of a file statically."/>
+    <meta property="og:url" content="https://www.uncoverit.org"/>
+    <meta property="og:site_name" content="uncoverit.org"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:image" content="https://i.postimg.cc/Fz5hSmhB/Opengraph.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Uncover it"/>
+    <meta name="twitter:description" content="Uncover the hidden malware, don&#x27;t let it uncover you!"/>
+    <meta name="twitter:image" content="https://i.postimg.cc/Fz5hSmhB/Opengraph.png"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="32x32"/>
+    <script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script>
+</head>
+<body class="__variable_1e4310 __variable_c3aa02 antialiased">
+ <div class="min-h-screen bg-gray-100">
+  <nav class="sticky top-10 z-10 mx-auto max-w-3xl mt-0 px-4 sm:px-6">
+   <div class="backdrop-blur-md bg-white/70 border border-gray-200 rounded-full px-4 sm:px-6">
+   <div class="flex items-center justify-between h-14">
+   <div class="flex items-center justify-between w-full">
+    <a class="flex-shrink-0" href="/">
+     <span class="text-lg font-bold">Uncover it</span></a>
+      <div class="hidden md:flex items-baseline space-x-4">
+       <a class="text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium" href="/">Home</a>
+       <a class="text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium" href="/about">About</a>
+       <a target="_blank" class="text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium" href="https://status.uncoverit.org">Status</a>
+       <a class="text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium" target="_blank" href="https://discord.gg/qmF4END38T">Discord</a>
+  </div>
+   <div class="md:hidden">
+    <button aria-label="Hamburger" class="text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-6 h-6"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+    </button>
+  </div>
+  </div>
+  </div>
+  </div>
+  </nav>
+   <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6 mt-12">
+    <h1 class="text-3xl font-bold mb-6 text-center">Malware Analysis Dashboard</h1>
+     <div class="mb-6">
+      <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 sr-only" for="file-info">File Information</label>
+       <div class="flex items-center">
+        <input type="text" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm file-info-input mr-2" id="file-info" placeholder="Enter Mega/GoFile/Discord/MediaFire link"/>
+        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 upload-button">
+      <span class="send-icon" aria-label="Send">
+       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send-horizontal h-4 w-4">
+        <path d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"></path>
+        <path d="M6 12h16"></path>
+       </svg>
+      </span>
+         </button>
+  </div>
+   </div>
+    <div class="mb-6  clickable">
+    <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+    <div class="p-6 flex flex-col items-center justify-center clickable">
+    <label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer" for="file-upload">
+    <div class="flex flex-col items-center">
+     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-upload h-12 w-12 text-muted-foreground mb-2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" x2="12" y1="3" y2="15"></line></svg>
+   <span class="text-lg font-semibold">Upload Files</span>
+   <span class="text-sm text-muted-foreground">
+      Drag &amp; drop or click to select</span>
+    </div>
+     </label>
+      <input id="file-upload" type="file" class="hidden" multiple=""/>
+      </div>
+      </div>
+       </div>
+        <div class="mb-6">
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+         <div class="flex flex-col space-y-1.5 p-6">
+  <h3 class="text-2xl font-semibold leading-none tracking-tight flex items-center">
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-no-axes-column mr-2 h-4 w-4"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg>
+   File Analysis</h3>
+   </div>
+   <div class="p-6 pt-0">
+   <div class="grid grid-cols-2 gap-4">
+   <div>
+    <p class="text-sm font-medium">
+    Total Size:</p>
+    <p class="text-lg">0.00 MB</p>
+   </div>
+    <div>
+     <p class="text-sm font-medium">Average Size:</p>
+    </div>
+   <div><p class="text-sm font-medium">Largest File:</p><p class="text-lg truncate">N/A (0.00 MB)</p></div>
+   <div><p class="text-sm font-medium">Smallest File:</p><p class="text-lg truncate">N/A (Infinity MB)</p></div>
+    </div>
+     </div> 
+      </div>
+      </div>
+    <div class="mb-4 flex justify-between items-center"><h2 class="text-xl font-semibold">Uploaded Files</h2><span class="text-sm text-muted-foreground">0 file(s)</span></div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+     </div>
+      <div class="mt-6 flex justify-center"><a href="https://docs.google.com/spreadsheets/d/1ZBZtseZf7AM3aCEWG6Ar_V0NXNWmz42aDonaYEwsd5Q/edit?usp=sharing"><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 text-black bg-white shadow-md hover:bg-white/80 hover:shadow-lg">Supported Malware</button></a></div>
+      </div>
+      <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template>
+      <script src="/_next/static/chunks/webpack-256e0e502d913ae3.js" async=""></script>
+      <script>(self.__next_f=self.__next_f||[]).push([0])</script>
+      <script>self.__next_f.push([1,"5:\"$Sreact.fragment\"\n6:I[9881,[],\"\"]\n7:I[6381,[],\"\"]\n8:I[3258,[\"177\",\"static/chunks/app/layout-2955c852510c7513.js\"],\"SpeedInsights\"]\n9:I[9757,[\"177\",\"static/chunks/app/layout-2955c852510c7513.js\"],\"default\"]\na:I[7010,[\"177\",\"static/chunks/app/layout-2955c852510c7513.js\"],\"default\"]\nb:I[176,[],\"ClientPageRoot\"]\nc:I[1112,[\"976\",\"static/chunks/976-67e469cfbda1653f.js\",\"839\",\"static/chunks/839-20860cf148486b0f.js\",\"974\",\"static/chunks/app/page-bea41399b0bbb61a.js\"],\"default\"]\nf:I[6038,[],\"OutletBoundary\"]\n11:I[6038,[],\"MetadataBoundary\"]\n13:I[6038,[],\"ViewportBoundary\"]\n15:I[9144,[],\"\"]\n1:HL[\"/_next/static/media/4473ecc91f70f139-s.p.woff\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff\"}]\n2:HL[\"/_next/static/media/463dafcda517f24f-s.p.woff\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff\"}]\n3:HL[\"/_next/static/css/9f6dedd01a329132.css\",\"style\"]\n4:HL[\"/_next/static/css/2eed7cac1a5c8bef.css\",\"style\"]\n"])</script>
+      <script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"Y7ZNNU7olp-zUmvjZeavT\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$5\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/9f6dedd01a329132.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[null,[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__variable_1e4310 __variable_c3aa02 antialiased\",\"children\":[[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[]}],[\"$\",\"$L8\",null,{}],[[\"$\",\"$L9\",null,{}],[\"$\",\"$La\",null,{}]]]}]}]]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$5\",\"c\",{\"children\":[[\"$\",\"$Lb\",null,{\"Component\":\"$c\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@d\",\"$@e\"]}],[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/2eed7cac1a5c8bef.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"$Lf\",null,{\"children\":\"$L10\"}]]}],{},null]},null],[\"$\",\"$5\",\"h\",{\"children\":[null,[\"$\",\"$5\",\"h7q7xEPr3LmJHRO6Q6XSV\",{\"children\":[[\"$\",\"$L11\",null,{\"children\":\"$L12\"}],[\"$\",\"$L13\",null,{\"children\":\"$L14\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\"}]]}]]}]]],\"m\":\"$undefined\",\"G\":[\"$15\",\"$undefined\"],\"s\":false,\"S\":true}\n"])
+      </script>
+      <script>self.__next_f.push([1,"d:{}\ne:{}\n"])</script>
+      <script>self.__next_f.push([1,"14:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n12:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"Uncover it - Static Malware Configuration Extractor\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"Uncover the hidden malware, don't let it uncover you! Uncover it is a simple to use malware analyzer that can return the configuration of a file statically.\"}],[\"$\",\"meta\",\"3\",{\"name\":\"keywords\",\"content\":\"malware analysis,static malware config,malware extractor,cybersecurity,uncover malware,file,files,malware,analysis,size,uncover,home,status\"}],[\"$\",\"meta\",\"4\",{\"name\":\"robots\",\"content\":\"index, follow\"}],[\"$\",\"meta\",\"5\",{\"name\":\"googlebot\",\"content\":\"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:title\",\"content\":\"Uncover it - Static Malware Config Extractor\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:description\",\"content\":\"Uncover the hidden malware, don't let it uncover you! Uncover it is a simple to use malware analyzer that can return the configuration of a file statically.\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:url\",\"content\":\"https://www.uncoverit.org\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:site_name\",\"content\":\"uncoverit.org\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:locale\",\"content\":\"en_US\"}],[\"$\",\"meta\",\"11\",{\"property\":\"og:image\",\"content\":\"https://i.postimg.cc/Fz5hSmhB/Opengraph.png\"}],[\"$\",\"meta\",\"12\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"15\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"16\",{\"name\":\"twitter:title\",\"content\":\"Uncover it\"}],[\"$\",\"meta\",\"17\",{\"name\":\"twitter:description\",\"content\":\"Uncover the hidden malware, don't let it uncover you!\"}],[\"$\",\"meta\",\"18\",{\"name\":\"twitter:image\",\"content\":\"https://i.postimg.cc/Fz5hSmhB/Opengraph.png\"}],[\"$\",\"link\",\"19\",{\"rel\":\"shortcut icon\",\"href\":\"/favicon.ico\"}],[\"$\",\"link\",\"20\""])
+      </script>
+      <script>self.__next_f.push([1,",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"32x32\"}]]\n"])
+      </script>
+      <script>self.__next_f.push([1,"10:null\n"])</script>
+</body>
+</html>
