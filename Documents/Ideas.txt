@@ -1,0 +1,5 @@
+PS3 Garden: A collection of everything PS3 (from firmwares and mods to games and DLC).
+Random Quotes: A static website that provides random quotes.
+HCJ: A site containing games written in HTML, CSS and JS.
+Custom OS written in HTML, CSS and JS (more than likely have to use more languages than those three).
+Paletter: A simple website that has website theme ideas.
